@@ -39,16 +39,13 @@ In order to "talk" to scolcoind, we need to set up an RPC username and password 
 <br/>
 $ mkdir ~/.scolcoin <br/>
 $ nano ~/.scolcoin/scolcoin.conf <br/>
- *# Use user and password <br/> 
  rpcuser=rpc_scolcoin <br/>
  rpcpassword=69c863e3356d3dae95df454a1 <br/>
  rpcallowip=127.0.0.1 <br/>
- *# Listening mode <br/>
  listen=1 <br/>
  server=1 <br/>
  txindex=1 <br/>
  daemon=1 <br/>
- *# Use as many addnode= <br/>
  addnode=5.189.144.197 <br/>
  addnode=80.241.214.59 <br/>
  addnode= 173.249.23.32 <br/>
