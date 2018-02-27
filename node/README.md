@@ -36,96 +36,95 @@ sudo apt-get update
 sudo apt-get upgrade
 
 # Install the necessary dependencies using the following commands.
-sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg
+sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg <br/>
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
-
+<br/>
 Download the Scolcoin deamon file in a link or attach to the email and upload it using SCP / Filezilla. (Only available for paid customers)
 
 # First step
-sudo adduser scolcoin --disabled-password
-Full Name []:  (enter)
-        	Room Number []:(enter)
-        	Work Phone []:(enter)
-        	Home Phone []:(enter)
-       	Other []:(enter)
-sudo apt-get install git
-sudo su - scolcoin
-mkdir ~/bin ~/src
-PATH="$HOME/bin:$PATH"
-echo $PATH 
-(/home/scolcoin/bin:…) I´m fine
-cd src
-wget http://scolcoin.com/descargas/scolcoin-daemon-linux.tar.gz
-
+sudo adduser scolcoin --disabled-password <br/>
+Full Name []:  (enter) <br/>
+        	Room Number []:(enter) <br/>
+        	Work Phone []:(enter) <br/>
+        	Home Phone []:(enter) <br/>
+       	Other []:(enter) <br/>
+sudo apt-get install git <br/>
+sudo su - scolcoin <br/>
+mkdir ~/bin ~/src <br/>
+PATH="$HOME/bin:$PATH" <br/>
+echo $PATH  <br/>
+(/home/scolcoin/bin:…) I´m fine <br/>
+cd src <br/>
+wget http://scolcoin.com/descargas/scolcoin-daemon-linux.tar.gz <br/>
+ <br/>
 # Second step
-
-Extract the tar file using the following command.
-tar -xzvf scolcoin-daemon-linux.tar.gz
+Extract the tar file using the following command. <br/>
+tar -xzvf scolcoin-daemon-linux.tar.gz <br/>
 
 # Third step
-strip scolcoind
-cp -a scolcoind ~/bin
-cd
-cd bin
-chmod +x scolcoind
+strip scolcoind <br/>
+cp -a scolcoind ~/bin <br/>
+cd <br/>
+cd bin <br/>
+chmod +x scolcoind <br/>
 
 # Fourth step
 
-Create the configuration file.
-mkdir ~/.scolcoin
-nano ~/.scolcoin/scolcoin.conf
+Create the configuration file. <br/>
+mkdir ~/.scolcoin <br/>
+nano ~/.scolcoin/scolcoin.conf <br/>
 
-Paste the following lines in yourcoin.conf.
-rpcuser=rpc_scolcoin
-rpcpassword=69c863e3356d3dae95df454a1
-rpcallowip=127.0.0.1
-listen=1
-server=1
-txindex=1
-daemon=1
-addnode=5.189.144.197
-addnode=80.241.214.59
-addnode= 173.249.23.32
+Paste the following lines in yourcoin.conf. <br/>
+rpcuser=rpc_scolcoin <br/>
+rpcpassword=69c863e3356d3dae95df454a1 <br/>
+rpcallowip=127.0.0.1 <br/>
+listen=1 <br/> 
+server=1 <br/>
+txindex=1 <br/>
+daemon=1 <br/>
+addnode=5.189.144.197 <br/>
+addnode=80.241.214.59 <br/>
+addnode= 173.249.23.32 <br/> <br/>
 
-Store with the Ctrl + x key
-Question do you want to store? press Y key (Yes)
-Then Press key (Enter)
+Store with the Ctrl + x key <br/>
+Question do you want to store? press Y key (Yes) <br/>
+Then Press key (Enter) <br/>
+  <br/>
+Start your node with the following command. <br/>
+scolcoind <br/>
 
-Start your node with the following command.
-scolcoind
+They will get the message "Scolcoin server starting" <br/>
 
-They will get the message "Scolcoin server starting"
+It is already running if you want to turn it off you can put the command <br/>
+scolcoind stop <br/>
 
-It is already running if you want to turn it off you can put the command
-scolcoind stop
+if you want to see the current status of the network: <br/>
+scolcoind getinfo <br/>
 
-if you want to see the current status of the network:
-scolcoind getinfo
+You will already have the server with the scolcoind configured. <br/>
 
-You will already have the server with the scolcoind configured.
+Create in Tasks (Optional) <br/>
+Log with root user and change the directory to /etc/init/. <br/>
+$ cd /etc/init <br/>
+Create the upstart config file. <br/>
+$ cat > scolcoin-daemon.conf  <br/>
 
-Create in Tasks (Optional)
-Log with root user and change the directory to /etc/init/.
-$ cd /etc/init
-Create the upstart config file.
-$ cat > scolcoin-daemon.conf 
+description "scolcoin daemon" <br/>
 
-description "scolcoin daemon"
+start on runlevel [23] <br/>
+stop on shutdown <br/>
 
-start on runlevel [23]
-stop on shutdown
+exec sudo -u fork /home/scolcoin/bin/scolcoind <br/>
+post-stop exec sleep 30 <br/>
 
-exec sudo -u fork /home/scolcoin/bin/scolcoind
-post-stop exec sleep 30
-
-respawn
-respawn limit 5 30
+respawn <br/> 
+respawn limit 5 30 <br/>
 
 
-Start the service.
-$ start scolcoin-daemon 
+Start the service. <br/>
+$ start scolcoin-daemon  <br/>
 
-You now have your seed node up and running. It will automatically restart if something goes wrong.
+You now have your seed node up and running. It will automatically restart if something goes wrong. <br/>
 
-Stopping the service.
-$ stop scolcoin-daemon 
+Stopping the service. <br/>
+$ stop scolcoin-daemon  <br/>
