@@ -1,21 +1,20 @@
 Nodes Scolcoin
 ===========================
 
-PIONEERING NODE´S MANUAL 
-
-How to create a Node? (Scolcoin)
+# How to create a Node? (Scolcoin)
 Physical characteristics of a Node Server:
 • Operating System Recommended Linux Ubunto 14.10
 • CPU: two cores
 • 6 GB RAM (guaranteed)
 • 500 GB disk space (SSD-boosted)
 • SSD boost
-What is a Node?
+
+# What is a Node?
 
 A node distributes your blockchain among the people who use your blockchain.
 The second characteristic of a node is that it verifies the transactions of your blockchain.
 
-How do I connect with a node?
+# How do I connect with a node?
 You can manually connect to a node using the following instructions from your wallet.
 
 1. Close your wallet and modify the file scolcoin.conf in the folder "% APPDATA% \ scolcoin \".
@@ -32,17 +31,17 @@ You can configure a node in your own Ubuntu VPS using the following instructions
 
 Rent a VPS that runs the Ubuntu 14.04 server.
 
-Update your VPS using the following commands.
+# Update your VPS using the following commands.
 sudo apt-get update
 sudo apt-get upgrade
 
-Install the necessary dependencies using the following commands.
+# Install the necessary dependencies using the following commands.
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
 
 Download the Scolcoin deamon file in a link or attach to the email and upload it using SCP / Filezilla. (Only available for paid customers)
 
-First step
+# First step
 sudo adduser scolcoin --disabled-password
 Full Name []:  (enter)
         	Room Number []:(enter)
@@ -58,35 +57,32 @@ echo $PATH
 cd src
 wget http://scolcoin.com/descargas/scolcoin-daemon-linux.tar.gz
 
-Second step
+# Second step
 
 Extract the tar file using the following command.
 tar -xzvf scolcoin-daemon-linux.tar.gz
 
-Third step
+# Third step
 strip scolcoind
 cp -a scolcoind ~/bin
 cd
 cd bin
 chmod +x scolcoind
 
-Fourth step
+# Fourth step
 
 Create the configuration file.
 mkdir ~/.scolcoin
 nano ~/.scolcoin/scolcoin.conf
 
 Paste the following lines in yourcoin.conf.
-# Use user and password
 rpcuser=rpc_scolcoin
 rpcpassword=69c863e3356d3dae95df454a1
 rpcallowip=127.0.0.1
-# Listening mode
 listen=1
 server=1
 txindex=1
 daemon=1
-# Use as many addnode=
 addnode=5.189.144.197
 addnode=80.241.214.59
 addnode= 173.249.23.32
