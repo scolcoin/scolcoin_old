@@ -1,7 +1,8 @@
 # scolcoin
-Instructions install Deamon
+Instructions install Deamon <br/>
 $ sudo apt-get update 
 $ sudo apt-get upgrade
+
 Step 1. Create a user for running scolcoind
 This step is optional, but for better security and resource separation I suggest you create a separate user just for running scolcoind . We will also use the ~/bin directory to keep locally installed files (others might want to use /usr/local/bin instead). We will download source code files to the ~/src directory.
 
