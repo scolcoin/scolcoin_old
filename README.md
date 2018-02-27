@@ -44,6 +44,7 @@ $ nano ~/.scolcoin/scolcoin.conf
  rpcallowip=127.0.0.1
  # Listening mode
  listen=1
+
  server=1
  txindex=1
  daemon=1
