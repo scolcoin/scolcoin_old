@@ -31,7 +31,9 @@ Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'.
 
+
 MANUAL NODOS PIONEROS
+===========================
 ¿Cómo crear un Nodo? (Scolcoin)
 Características físicas de un Servidor Nodo:
 •	Sistema Operativo Recomendado Linux Ubunto 14.10
@@ -39,7 +41,9 @@ Características físicas de un Servidor Nodo:
 •	6 GB RAM (guaranteed)
 •	500 GB disk space (SSD-boosted)
 •	SSD boost
+
 Que es un Nodo?
+===========================
 
 Un nodo distribuye tu blockchain entre las personas que usan tu blockchain. 
 La segunda característica de un nodo es que verifica las transacciones de tu blockchain.
@@ -61,8 +65,10 @@ Puede configurar un nodo en su propio VPS usando las siguientes instrucciones:
 Puede configurar un nodo en su propio Ubuntu VPS usando las siguientes instrucciones.
 
 Alquile un VPS que ejecute el servidor Ubuntu 14.04.
+===========================
 
 Actualiza tu VPS usando los siguientes comandos.
+===========================
 
 sudo apt-get update
 sudo apt-get upgrade
@@ -70,6 +76,7 @@ sudo apt-get upgrade
 
 
 Instale las dependencias necesarias usando los siguientes comandos.
+===========================
 
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
@@ -77,6 +84,7 @@ sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev lib
 Descarga el archivo deamon de Scolcoin en un link o adjunto al correo y súbelo usando SCP / Filezilla. (Solo disponible para clientes pagados)
 
 Primer Paso
+===========================
 
 sudo adduser scolcoin --disabled-password
 Full Name []:  (enter)
@@ -95,12 +103,14 @@ wget http://scolcoin.com/descargas/scolcoin-daemon-linux.tar.gz
 
 
 Segundo Paso
+===========================
 
 Extraiga el archivo tar usando el siguiente comando.
 
 tar -xzvf scolcoin-daemon-linux.tar.gz
 
 Tercer Paso
+===========================
 
 strip scolcoind
 cp -a scolcoind ~/bin
@@ -109,28 +119,22 @@ cd bin
 chmod +x scolcoind
 
 Cuarto Paso
+===========================
 
 Crea el archivo de configuración.
 mkdir ~/.scolcoin
 nano ~/.scolcoin/scolcoin.conf
 
 
-
-
-
-
 Pegue las siguientes líneas en yourcoin.conf.
-
-# Use user and password
+===========================
 rpcuser=rpc_scolcoin
 rpcpassword=69c863e3356d3dae95df454a1
 rpcallowip=127.0.0.1
-# Listening mode
 listen=1
 server=1
 txindex=1
 daemon=1
-# Use as many addnode=
 addnode=5.189.144.197
 addnode=80.241.214.59
 addnode= 173.249.23.32
@@ -140,6 +144,7 @@ Pregunta desea almacenar? oprima tecla  Y (Yes)
 Luego Presione tecla (Enter)
 
 Comience su nodo con el siguiente comando.
+===========================
 scolcoind
 
 Les saldrá el mensaje “Scolcoin server starting”
