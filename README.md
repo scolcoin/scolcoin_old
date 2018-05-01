@@ -116,26 +116,40 @@ Cuarto Paso
 ===========================
 
 Crea el archivo de configuración.
+
 mkdir ~/.scolcoin
+
 nano ~/.scolcoin/scolcoin.conf
 
 
 Pegue las siguientes líneas en yourcoin.conf.
 ===========================
 rpcuser=rpc_scolcoin
+
 rpcpassword=69c863e3356d3dae95df454a1
+
 rpcallowip=127.0.0.1
+
 listen=1
+
 server=1
+
 txindex=1
+
 daemon=1
+
 addnode=5.189.144.197
+
 addnode=80.241.214.59
-addnode= 173.249.23.32
+
+
 
 Almacenar con la tecla Ctrl + x
+
 Pregunta desea almacenar? oprima tecla  Y (Yes)
+
 Luego Presione tecla (Enter)
+
 
 Comience su nodo con el siguiente comando.
 ===========================
