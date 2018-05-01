@@ -71,6 +71,7 @@ Actualiza tu VPS usando los siguientes comandos.
 ===========================
 
 sudo apt-get update
+
 sudo apt-get upgrade
 
 
@@ -79,6 +80,7 @@ Instale las dependencias necesarias usando los siguientes comandos.
 ===========================
 
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg
+
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev
 
 Descarga el archivo deamon de Scolcoin en un link o adjunto al correo y súbelo usando SCP / Filezilla. (Solo disponible para clientes pagados)
