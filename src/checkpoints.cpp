@@ -27,24 +27,42 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (     0, uint256("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0"))
-        (   100, uint256("0x000008cec094cebb971d1e19e24b55c241f812726ada871fa222200a05a176ef"))
-        (  1000, uint256("0xf693d8cdbc1826d548cd1dd6b0d0b8d3f09aeecbe90ddce5d19429d8572d06af"))
-        ( 10000, uint256("0x000000035c42d4475a8c3c160cef0548190c457be6ffd5abd3313657de409f61"))
-        ( 50000, uint256("0x31d6b85fe28bf2bdccfcdfa87810c398ab4a2043b55c50faa6cb0ac7e3c2ba9b"))
-        (100000, uint256("0x9ed88c88cf671c5ad073539bf3a26d1dad56868aff3c30eaac46dfca1fd1d140"))
-        (150000, uint256("0x2ce2369bc67c6578a1f1f3036cdff464abf479bb744da07f886e4bec7763411d"))
-        (200000, uint256("0x54961007498b6ce445fba424f6afa40e0ada83023b29b5ab01139655035a17c6"))
-        (250000, uint256("0x20b8af1f50d436ddd4d70be440e0669f4f5999280f2b3a9bb8f9376862fd48ed"))
-        (300000, uint256("0x5c867a9efbfefe2c2307ce2230adca3d60d7bcf8d9b76a84c5007e6f7190696d"))
-        (400000, uint256("0xfc1a00cc1382663b37de45614cf8b72f1c746fb9b3e2e9dbd792fd7fea1f8f43"))
-        (500000, uint256("0xaa6dc005c4824c71d6c286cdb70f63d9f6c59b225a69f15a39314b131396c88b"))
+        ( 0,      hashGenesisBlock )
     ;
 
     // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
         ( 0, hashGenesisBlockTestNet )
+        (   100, uint256("0x00000c8f8f6fb876b152e184f73f5e3268d539ec0bce3705fac501af0de42031"))
+        ( 20000, uint256("0x4bf839a33d43d3f959cdc5c3ea25b16e9d6078346b799e13e2dffb095f8cc24a"))
+        ( 40000, uint256("0xcc9bb8e836881c5f027e0892e8926ba914f64d5d97e6c007615cce82984d2c61"))
+        ( 60000, uint256("0x4f02362f5e9d09013967774f67c87f6101eb1890174b29b704cfef3abd34572b"))
+        ( 80000, uint256("0x4bd3bc800fcec5a40912516a148d64b439f66f77881a34724591cd0b55b63ec1"))
+        (100000, uint256("0x9ed88c88cf671c5ad073539bf3a26d1dad56868aff3c30eaac46dfca1fd1d140"))
+        (120000, uint256("0x22ca60b5976838ac8b6816d3ae02d86596222475da9bbbe87d3cfbc485c89fc9"))
+        (140000, uint256("0x3eabbe12df244a192109f01fed75d9a1388d3d14c4f8cb633998b6394a818250"))
+        (160000, uint256("0x2b72cbabd9eb3ea3920fa62fb767a42eb6df9ccc3235b066d66555443fc10b66"))
+        (180000, uint256("0x0a8502a18f3bc3bb1489da4e579484fd4e32602b3ca2a9a78fb5ffd0a5df047c"))
+        (200000, uint256("0x54961007498b6ce445fba424f6afa40e0ada83023b29b5ab01139655035a17c6"))
+        (220000, uint256("0x3e23c43e4b1ea56ac2276ff589436286f9c336cbf4976e6112ab4dd5f6174bd1"))
+        (240000, uint256("0x2dca3b38f4a0ce6410c647397a600f7167fead773d566145c6852ad916b9ea64"))
+        (260000, uint256("0x47e8141ac017cd556268bb542f13276886b125e157f9f9f536e29143473df326"))
+        (280000, uint256("0xb93822b23f8bb9f5489ce05f059840ed77ecc497d175fb9714d6a2ba793a136e"))
+        (300000, uint256("0x5c867a9efbfefe2c2307ce2230adca3d60d7bcf8d9b76a84c5007e6f7190696d"))
+        (320000, uint256("0x9c90f7b880b14aacb9708312c785c7a9ca4fb4cf7ceff368db5aa4a49bc1e9a5"))
+        (340000, uint256("0xcfee2090e493b13041cad6abcb579687fc7428c1861ed6cab48f20335319dc29"))
+        (360000, uint256("0x8251ebc1f51f9c3a550fb2276b7f9defec03c858d9fa05bc38cf5d68a2fcac0c"))
+        (380000, uint256("0xe3b295b292b78b2f330c83d792b1c0648fa52fe0b2efb4e04495a504e34c574a"))
+        (400000, uint256("0xfc1a00cc1382663b37de45614cf8b72f1c746fb9b3e2e9dbd792fd7fea1f8f43"))
+        (420000, uint256("0x96c09c177282d59dab95ad938d4ac9ff1822a0b962072d957f937313ee9542c3"))
+        (440000, uint256("0x29dab81aecd58169634db14f6c450eee84926fae5ec75ad6df9270c114e6a9ce"))
+        (480000, uint256("0x5c18d903a84e6070ad6c1df38dd7e733f8447e94c96047ed26200c32ed22cea8"))
+        (500000, uint256("0xaa6dc005c4824c71d6c286cdb70f63d9f6c59b225a69f15a39314b131396c88b"))
+        (520000, uint256("0xcd8e30e967a0e3113ee3c67b48b0ec5d5ea5c6fa5fe078b63100707c7782c347"))
+        (540000, uint256("0x02af5156979e3fcda6bec72e8f28572c67774e2d4998a73557a3b8b881cbb4f6"))
+        (560000, uint256("0x572bbff02295dcf32985c47f34fe351dc2b3210928785122b374a048c83dab1f"))
+        (580000, uint256("0xd87574aa89358b0228b823879a2b83dae44ad3b60882777788bc9303efa67818"))
         ;
 
     bool CheckHardened(int nHeight, const uint256& hash)
@@ -198,7 +216,7 @@ namespace Checkpoints
         return false;
     }
 
-    // Automatically select a suitable sync-checkpoint 
+    // Automatically select a suitable sync-checkpoint
     uint256 AutoSelectSyncCheckpoint()
     {
         const CBlockIndex *pindex = pindexBest;
@@ -243,7 +261,7 @@ namespace Checkpoints
             return false;
         if (hashBlock == hashPendingCheckpoint)
             return true;
-        if (mapOrphanBlocks.count(hashPendingCheckpoint) 
+        if (mapOrphanBlocks.count(hashPendingCheckpoint)
             && hashBlock == WantedByOrphan(mapOrphanBlocks[hashPendingCheckpoint]))
             return true;
         return false;
