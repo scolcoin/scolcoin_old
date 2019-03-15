@@ -52,11 +52,7 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-static const int64_t COIN_YEAR_REWARD = 3 * CENT; //Deja de Funcionar Blok 700K
-
-/** Nuevos Parametros PoS. Con RedAK ScolCoin a Partir del Bloque 700.000, con un cambio PoS 10% */
-static const int64_t REDAK_POSFIX = 700000; //Mainnet REDAK 
-static const int64_t COIN_YEAR_REWARD_POS_NEW =  10 * CENT;
+static const int64_t COIN_YEAR_REWARD = 3 * CENT;
 
 static const uint256 hashGenesisBlock("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0");
 static const uint256 hashGenesisBlockTestNet("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0");
