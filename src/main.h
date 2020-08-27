@@ -51,8 +51,10 @@ static const int64_t MAX_MONEY = 246400000 * COIN;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
+int64_t GetProofOfStakeRewardPercent(int nHeight);
 
-static const int64_t COIN_YEAR_REWARD = 3 * CENT;
+static const int64_t COIN_YEAR_REWARD_V1 = 3 * CENT;
+static const int64_t COIN_YEAR_REWARD_V2 = 10 * CENT;
 
 static const uint256 hashGenesisBlock("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0");
 static const uint256 hashGenesisBlockTestNet("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0");
@@ -120,7 +122,7 @@ bool LoadExternalBlockFile(FILE* fileIn);
 bool CheckProofOfWork(uint256 hash, unsigned int nBits);
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake);
 int64_t GetProofOfWorkReward(int64_t nFees);
-int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees);
+int64_t GetProofOfStakeReward(int nHeight, int64_t nCoinAge, int64_t nFees);
 unsigned int ComputeMinWork(unsigned int nBase, int64_t nTime);
 unsigned int ComputeMinStake(unsigned int nBase, int64_t nTime, unsigned int nBlockTime);
 int GetNumBlocksOfPeers();
