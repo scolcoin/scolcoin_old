@@ -102,7 +102,7 @@ def copydata(settings, blkindex, blkset):
 	blkCount = 0
 
 	lastDate = datetime.datetime(2000, 1, 1)
-	highTS = 1408893517 - 315360000
+	highTS = 1598556165 - 315360000
 	timestampSplit = False
 	fileOutput = True
 	setFileTime = False
