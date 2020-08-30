@@ -15,10 +15,10 @@
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Scolcoin developers</source>
+Copyright © 2018-2020 The Scolcoin developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2014 De Scolcoin ontwikkelaars</translation>
+Copyright © 2018-2020 De Scolcoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
