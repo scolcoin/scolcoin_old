@@ -3,19 +3,21 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Scolcoin</source>
-        <translation>Tietoa Scolcoinista</translation>
+        <source>About Icolcoin</source>
+        <translation>Tietoa Icolcoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Scolcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Scolcoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;Icolcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Icolcoin&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</source>
+Copyright © 2018-2020 The Scolcoin developers
+Copyright © 2020-2021 The Icolcoin developers
+Copyright © Blockchain Technology Sas</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +66,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Scolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat Scolcoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your Icolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat Icolcoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +81,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Scolcoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi Scolcoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a Icolcoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi Icolcoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +96,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Scolcoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen Scolcoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified Icolcoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen Icolcoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,8 +264,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>Scolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Scolcoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>Icolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Icolcoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +378,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Scolcoin</source>
-        <translation>Näytä tietoja Scolcoinista</translation>
+        <source>Show information about Icolcoin</source>
+        <translation>Näytä tietoja Icolcoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +428,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a Scolcoin address</source>
-        <translation>Lähetä kolikkoja Scolcoin osoitteeseen</translation>
+        <source>Send coins to a Icolcoin address</source>
+        <translation>Lähetä kolikkoja Icolcoin osoitteeseen</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Scolcoin</source>
-        <translation>Mukauta Scolcoinin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for Icolcoin</source>
+        <translation>Mukauta Icolcoinin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -471,8 +473,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-200"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,8 +483,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About Scolcoin</source>
-        <translation>&amp;Tietoa Scolcoinista</translation>
+        <source>&amp;About Icolcoin</source>
+        <translation>&amp;Tietoa Icolcoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -538,13 +540,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Scolcoin client</source>
-        <translation>Scolcoin-asiakas</translation>
+        <source>Icolcoin client</source>
+        <translation>Icolcoin-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Scolcoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Scolcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Scolcoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Icolcoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Icolcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Icolcoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,8 +659,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Scolcoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä Scolcoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Icolcoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä Icolcoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -717,8 +719,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Scolcoin can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. Scolcoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. Icolcoin can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. Icolcoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1051,8 +1053,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Scolcoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty Scolcoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Icolcoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty Icolcoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1070,8 +1072,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Scolcoin-Qt</source>
-        <translation>Scolcoin-Qt</translation>
+        <source>Icolcoin-Qt</source>
+        <translation>Icolcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1143,13 +1145,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Scolcoin after logging in to the system.</source>
-        <translation>Käynnistä Scolcoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start Icolcoin after logging in to the system.</source>
+        <translation>Käynnistä Icolcoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Scolcoin on system login</source>
-        <translation>%Käynnistä Scolcoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start Icolcoin on system login</source>
+        <translation>%Käynnistä Icolcoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1168,8 +1170,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Scolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Scolcoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the Icolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Icolcoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1180,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Scolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä Scolcoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the Icolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä Icolcoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1255,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Scolcoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta Scolcoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Icolcoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta Icolcoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1268,8 +1270,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Scolcoin addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota Scolcoin-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show Icolcoin addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota Icolcoin-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1315,8 +1317,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Scolcoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta Scolcoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting Icolcoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta Icolcoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1334,8 +1336,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scolcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti Scolcoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Icolcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti Icolcoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1550,8 +1552,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Scolcoin-Qt help message to get a list with possible Scolcoin command-line options.</source>
-        <translation>Näytä Scolcoin-Qt:n avustusohje saadaksesi listan käytettävistä Scolcoinin komentokehotteen määritteistä.</translation>
+        <source>Show the Icolcoin-Qt help message to get a list with possible Icolcoin command-line options.</source>
+        <translation>Näytä Icolcoin-Qt:n avustusohje saadaksesi listan käytettävistä Icolcoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1570,13 +1572,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Scolcoin - Debug window</source>
-        <translation>Scolcoin - Debug-ikkuna</translation>
+        <source>Icolcoin - Debug window</source>
+        <translation>Icolcoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Scolcoin Core</source>
-        <translation>Scolcoinin ydin</translation>
+        <source>Icolcoin Core</source>
+        <translation>Icolcoinin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1585,8 +1587,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Scolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Scolcoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the Icolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Icolcoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1595,8 +1597,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Scolcoin RPC console.</source>
-        <translation>Tervetuloa Scolcoinin RPC-konsoliin.</translation>
+        <source>Welcome to the Icolcoin RPC console.</source>
+        <translation>Tervetuloa Icolcoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1754,8 +1756,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä Scolcoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä Icolcoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1854,8 +1856,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Scolcoin address</source>
-        <translation>VAROITUS: Epäkelpo Scolcoin-osoite</translation>
+        <source>WARNING: Invalid Icolcoin address</source>
+        <translation>VAROITUS: Epäkelpo Icolcoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1928,8 +1930,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä Scolcoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä Icolcoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1989,8 +1991,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Scolcoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän Scolcoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Icolcoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän Icolcoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2021,8 +2023,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Scolcoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä Scolcoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Icolcoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä Icolcoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2034,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Syötä Scolcoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Syötä Icolcoin-osoite (esim. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2042,8 +2044,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Scolcoin signature</source>
-        <translation>Syötä Scolcoin-allekirjoitus</translation>
+        <source>Enter Icolcoin signature</source>
+        <translation>Syötä Icolcoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2613,8 +2615,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Scolcoin version</source>
-        <translation>Scolcoinin versio</translation>
+        <source>Icolcoin version</source>
+        <translation>Icolcoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2623,8 +2625,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or scolcoind</source>
-        <translation>Syötä komento kohteeseen -server tai scolcoind</translation>
+        <source>Send command to -server or icolcoind</source>
+        <translation>Syötä komento kohteeseen -server tai icolcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,13 +2645,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: scolcoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: scolcoin.conf)</translation>
+        <source>Specify configuration file (default: icolcoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: icolcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: scolcoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: scolcoin.pid)</translation>
+        <source>Specify pid file (default: icolcoind.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: icolcoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2673,8 +2675,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31497 or testnet: 41497)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 31497 tai testiverkko: 41497)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 20138 or testnet: 45064)</source>
+        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: 20138 tai testiverkko: 45064)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2733,8 +2735,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31498 or testnet: 41498)</source>
-        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 31498 tai testiverkko: 41498)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20139 or testnet: 45065)</source>
+        <translation>Kuuntele JSON-RPC-yhteyksiä portissa &lt;port&gt; (oletus: 20139 tai testiverkko: 45065)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2798,8 +2800,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Scolcoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, Scolcoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Icolcoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, Icolcoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2988,23 +2990,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3129,13 +3131,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Scolcoin is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. Scolcoin-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Icolcoin is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. Icolcoin-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3169,13 +3171,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Scolcoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version Scolcoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Icolcoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version Icolcoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Scolcoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Scolcoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart Icolcoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Icolcoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3244,8 +3246,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Scolcoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. Scolcoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. Icolcoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. Icolcoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

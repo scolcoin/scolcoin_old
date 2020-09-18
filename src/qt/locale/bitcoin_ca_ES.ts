@@ -3,22 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Scolcoin</source>
-        <translation>Sobre Scolcoin</translation>
+        <source>About Icolcoin</source>
+        <translation>Sobre Icolcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Scolcoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;Scolcoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Icolcoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;Icolcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</source>
+Copyright © 2018-2020 The Scolcoin developers
+Copyright © 2020-2021 The Icolcoin developers
+Copyright © Blockchain Technology Sas</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</translation>
+Copyright © 2018-2020 The Icolcoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Scolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de Scolcoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your Icolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de Icolcoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -75,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Scolcoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Scolcoin</translation>
+        <source>Sign a message to prove you own a Icolcoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Icolcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Scolcoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Scolcoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified Icolcoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Icolcoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Scolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Scolcoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>Icolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Icolcoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -372,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Scolcoin</source>
-        <translation>Mostra informació sobre Scolcoin</translation>
+        <source>Show information about Icolcoin</source>
+        <translation>Mostra informació sobre Icolcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +424,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a Scolcoin address</source>
-        <translation>Enviar monedes a una adreça Scolcoin</translation>
+        <source>Send coins to a Icolcoin address</source>
+        <translation>Enviar monedes a una adreça Icolcoin</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Scolcoin</source>
-        <translation>Modificar les opcions de configuració per a Scolcoin</translation>
+        <source>Modify configuration options for Icolcoin</source>
+        <translation>Modificar les opcions de configuració per a Icolcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -467,8 +469,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -477,8 +479,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About Scolcoin</source>
-        <translation>&amp;Sobre Scolcoin</translation>
+        <source>&amp;About Icolcoin</source>
+        <translation>&amp;Sobre Icolcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -534,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Scolcoin client</source>
-        <translation>Client Scolcoin</translation>
+        <source>Icolcoin client</source>
+        <translation>Client Icolcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Scolcoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa Scolcoin</numerusform><numerusform>%n conexions actives a la xarxa Scolcoin</numerusform></translation>
+        <source>%n active connection(s) to Icolcoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa Icolcoin</numerusform><numerusform>%n conexions actives a la xarxa Icolcoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -650,8 +652,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Scolcoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Scolcoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Icolcoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Icolcoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -710,8 +712,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Scolcoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. Scolcoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. Icolcoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. Icolcoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1044,8 +1046,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Scolcoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Scolcoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Icolcoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Icolcoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1063,8 +1065,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Scolcoin-Qt</source>
-        <translation>Scolcoin-Qt</translation>
+        <source>Icolcoin-Qt</source>
+        <translation>Icolcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1136,13 +1138,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Scolcoin after logging in to the system.</source>
-        <translation>Inicia automàticament Scolcoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start Icolcoin after logging in to the system.</source>
+        <translation>Inicia automàticament Icolcoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Scolcoin on system login</source>
-        <translation>&amp;Iniciar Scolcoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start Icolcoin on system login</source>
+        <translation>&amp;Iniciar Icolcoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1161,8 +1163,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Scolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client Scolcoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the Icolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client Icolcoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1171,8 +1173,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Scolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa Scolcoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the Icolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa Icolcoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1246,8 +1248,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Scolcoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Scolcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Icolcoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Icolcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1261,8 +1263,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Scolcoin addresses in the transaction list or not.</source>
-        <translation>Per mostrar Scolcoin adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show Icolcoin addresses in the transaction list or not.</source>
+        <translation>Per mostrar Icolcoin adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1308,8 +1310,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Scolcoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Scolcoin.</translation>
+        <source>This setting will take effect after restarting Icolcoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Icolcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1327,8 +1329,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scolcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Scolcoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Icolcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Icolcoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1543,8 +1545,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Scolcoin-Qt help message to get a list with possible Scolcoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de Scolcoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Scolcoin.</translation>
+        <source>Show the Icolcoin-Qt help message to get a list with possible Icolcoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de Icolcoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Icolcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,13 +1565,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Scolcoin - Debug window</source>
-        <translation>Scolcoin - Finestra Depuració</translation>
+        <source>Icolcoin - Debug window</source>
+        <translation>Icolcoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Scolcoin Core</source>
-        <translation>Nucli Scolcoin</translation>
+        <source>Icolcoin Core</source>
+        <translation>Nucli Icolcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1578,8 +1580,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Scolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració Scolcoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the Icolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració Icolcoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1588,8 +1590,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Scolcoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de Scolcoin.</translation>
+        <source>Welcome to the Icolcoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de Icolcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1747,8 +1749,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Scolcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Icolcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1847,8 +1849,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Scolcoin address</source>
-        <translation>ADVERTÈNCIA: Direcció Scolcoin invàlida</translation>
+        <source>WARNING: Invalid Icolcoin address</source>
+        <translation>ADVERTÈNCIA: Direcció Icolcoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1921,8 +1923,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Scolcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Icolcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1982,8 +1984,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Scolcoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Scolcoin</translation>
+        <source>Sign the message to prove you own this Icolcoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Icolcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2014,8 +2016,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Scolcoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Scolcoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified Icolcoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Icolcoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2025,8 +2027,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Scolcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Icolcoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2035,8 +2037,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Scolcoin signature</source>
-        <translation>Introduïu la signatura Scolcoin</translation>
+        <source>Enter Icolcoin signature</source>
+        <translation>Introduïu la signatura Icolcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2606,8 +2608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Scolcoin version</source>
-        <translation>versió Scolcoin</translation>
+        <source>Icolcoin version</source>
+        <translation>versió Icolcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2616,8 +2618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or scolcoind</source>
-        <translation>Enviar comandes a -server o scolcoind</translation>
+        <source>Send command to -server or icolcoind</source>
+        <translation>Enviar comandes a -server o icolcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2636,13 +2638,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: scolcoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: scolcoin.conf)</translation>
+        <source>Specify configuration file (default: icolcoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: icolcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: scolcoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: scolcoind.pid)</translation>
+        <source>Specify pid file (default: icolcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: icolcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2666,8 +2668,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31497 or testnet: 41497)</source>
-        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 31497 o testnet: 41497)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 20138 or testnet: 45064)</source>
+        <translation>Escoltar connexions en &lt;port&gt; (per defecte: 20138 o testnet: 45064)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2726,8 +2728,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31498 or testnet: 41498)</source>
-        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 31498 o testnet: 41498)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20139 or testnet: 45065)</source>
+        <translation>Escoltar connexions JSON-RPC al port &lt;port&gt; (per defecte: 20139 o testnet: 45065)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2791,8 +2793,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Scolcoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Scolcoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Icolcoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Icolcoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2981,24 +2983,24 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
 Es recomana utilitzar la següent contrasenya aleatòria:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (No cal recordar aquesta contrasenya)
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3124,13 +3126,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Scolcoin is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. Scolcoin probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Icolcoin is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. Icolcoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3164,13 +3166,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Scolcoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Scolcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Icolcoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Icolcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Scolcoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar Scolcoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart Icolcoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar Icolcoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3239,8 +3241,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Scolcoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. Scolcoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. Icolcoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. Icolcoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>

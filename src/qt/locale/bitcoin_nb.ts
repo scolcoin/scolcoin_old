@@ -3,19 +3,21 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Scolcoin</source>
-        <translation>Om Scolcoin</translation>
+        <source>About Icolcoin</source>
+        <translation>Om Icolcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Scolcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Scolcoin&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;Icolcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Icolcoin&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</source>
+Copyright © 2018-2020 The Scolcoin developers
+Copyright © 2020-2021 The Icolcoin developers
+Copyright © Blockchain Technology Sas</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,7 +65,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Scolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Icolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dette er adressene for å motta betalinger. Du ønsker kanskje å gi ulike adresser til hver avsender så du lettere kan holde øye med hvem som betaler deg.</translation>
     </message>
     <message>
@@ -78,8 +80,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Scolcoin address</source>
-        <translation>Signer en melding for å bevise din egen Scolcoin adresse.</translation>
+        <source>Sign a message to prove you own a Icolcoin address</source>
+        <translation>Signer en melding for å bevise din egen Icolcoin adresse.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +95,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Scolcoin address</source>
-        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk Scolcoin adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Icolcoin address</source>
+        <translation>Verifiser en melding får å forsikre deg om at den er signert med en spesifikk Icolcoin adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,7 +263,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-58"/>
-        <source>Scolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Icolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -375,8 +377,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Scolcoin</source>
-        <translation>Vis info om Scolcoin</translation>
+        <source>Show information about Icolcoin</source>
+        <translation>Vis info om Icolcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +427,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a Scolcoin address</source>
-        <translation>Send coins til en Scolcoin adresse</translation>
+        <source>Send coins to a Icolcoin address</source>
+        <translation>Send coins til en Icolcoin adresse</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Scolcoin</source>
-        <translation>Endre innstillingene til Scolcoin</translation>
+        <source>Modify configuration options for Icolcoin</source>
+        <translation>Endre innstillingene til Icolcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +472,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-200"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +482,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About Scolcoin</source>
-        <translation>&amp;Om Scolcoin</translation>
+        <source>&amp;About Icolcoin</source>
+        <translation>&amp;Om Icolcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +539,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Scolcoin client</source>
-        <translation>Scolcoin klient</translation>
+        <source>Icolcoin client</source>
+        <translation>Icolcoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Scolcoin network</source>
-        <translation><numerusform>%n aktiv tilkobling til Scolcoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til Scolcoin nettverket</numerusform></translation>
+        <source>%n active connection(s) to Icolcoin network</source>
+        <translation><numerusform>%n aktiv tilkobling til Icolcoin nettverket</numerusform><numerusform>%n aktive tilkoblinger til Icolcoin nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -657,7 +659,7 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Scolcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Icolcoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -717,7 +719,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Scolcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Icolcoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1039,8 +1041,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Scolcoin address.</source>
-        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig Scolcoin adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Icolcoin address.</source>
+        <translation>Den angitte adressen &quot;%1&quot; er ikke en gyldig Icolcoin adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1060,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Scolcoin-Qt</source>
-        <translation>Scolcoin-Qt</translation>
+        <source>Icolcoin-Qt</source>
+        <translation>Icolcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1131,13 +1133,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Scolcoin after logging in to the system.</source>
+        <source>Automatically start Icolcoin after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Scolcoin on system login</source>
-        <translation>&amp;Start Scolcoin ved innlogging</translation>
+        <source>&amp;Start Icolcoin on system login</source>
+        <translation>&amp;Start Icolcoin ved innlogging</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1156,7 +1158,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Scolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Icolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1166,7 +1168,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Scolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Icolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1241,7 +1243,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Scolcoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Icolcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1256,7 +1258,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Scolcoin addresses in the transaction list or not.</source>
+        <source>Whether to show Icolcoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1303,7 +1305,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Scolcoin.</source>
+        <source>This setting will take effect after restarting Icolcoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1322,7 +1324,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scolcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Icolcoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1538,7 +1540,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Scolcoin-Qt help message to get a list with possible Scolcoin command-line options.</source>
+        <source>Show the Icolcoin-Qt help message to get a list with possible Icolcoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1558,12 +1560,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Scolcoin - Debug window</source>
+        <source>Icolcoin - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Scolcoin Core</source>
+        <source>Icolcoin Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1573,7 +1575,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Scolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Icolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1583,7 +1585,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Scolcoin RPC console.</source>
+        <source>Welcome to the Icolcoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1742,7 +1744,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1842,8 +1844,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Scolcoin address</source>
-        <translation>ADVARSEL: Ugyldig Scolcoin adresse</translation>
+        <source>WARNING: Invalid Icolcoin address</source>
+        <translation>ADVARSEL: Ugyldig Icolcoin adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1916,7 +1918,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1977,7 +1979,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Scolcoin address</source>
+        <source>Sign the message to prove you own this Icolcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2009,7 +2011,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Scolcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Icolcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2020,7 +2022,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2030,7 +2032,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Scolcoin signature</source>
+        <source>Enter Icolcoin signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2601,8 +2603,8 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Scolcoin version</source>
-        <translation>Scolcoin versjon</translation>
+        <source>Icolcoin version</source>
+        <translation>Icolcoin versjon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2611,7 +2613,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or scolcoind</source>
+        <source>Send command to -server or icolcoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2631,12 +2633,12 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: scolcoin.conf)</source>
+        <source>Specify configuration file (default: icolcoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: scolcoind.pid)</source>
+        <source>Specify pid file (default: icolcoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2661,7 +2663,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31497 or testnet: 41497)</source>
+        <source>Listen for connections on &lt;port&gt; (default: 20138 or testnet: 45064)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2721,7 +2723,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31498 or testnet: 41498)</source>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20139 or testnet: 45065)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2786,7 +2788,7 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Scolcoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Icolcoin will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2975,13 +2977,13 @@ Dette betyr at det trengs en avgift på minimum %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3107,13 +3109,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Scolcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Icolcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3147,12 +3149,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Scolcoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Icolcoin</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Scolcoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Icolcoin to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3222,7 +3224,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Scolcoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Icolcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

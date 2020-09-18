@@ -3,22 +3,26 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Scolcoin</source>
-        <translation>О Scolcoin</translation>
+        <source>About Icolcoin</source>
+        <translation>О Icolcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Scolcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Scolcoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Icolcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Icolcoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</source>
+Copyright © 2018-2020 The Scolcoin developers
+Copyright © 2020-2021 The Icolcoin developers
+Copyright © Blockchain Technology Sas</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2018-2020 Разработчики Scolcoin</translation>
+Все права защищены © 2018-2020 Разработчики Scolcoin
+Все права защищены © 2020-2021 Разработчики Icolcoin
+Все права защищены © Blockchain Technology Sas</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,7 +69,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Scolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Icolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -80,8 +84,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Scolcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Scolcoin</translation>
+        <source>Sign a message to prove you own a Icolcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Icolcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +99,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Scolcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Scolcoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Icolcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Icolcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,7 +267,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Scolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Icolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -377,8 +381,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Scolcoin</source>
-        <translation>Показать информацию о Scolcoin&apos;е</translation>
+        <source>Show information about Icolcoin</source>
+        <translation>Показать информацию о Icolcoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +431,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a Scolcoin address</source>
-        <translation>Отправить монеты на указанный адрес Scolcoin</translation>
+        <source>Send coins to a Icolcoin address</source>
+        <translation>Отправить монеты на указанный адрес Icolcoin</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Scolcoin</source>
-        <translation>Изменить параметры конфигурации Scolcoin</translation>
+        <source>Modify configuration options for Icolcoin</source>
+        <translation>Изменить параметры конфигурации Icolcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +476,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +486,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About Scolcoin</source>
-        <translation>&amp;О Scolcoin</translation>
+        <source>&amp;About Icolcoin</source>
+        <translation>&amp;О Icolcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,12 +543,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Scolcoin client</source>
-        <translation>Scolcoin клиент</translation>
+        <source>Icolcoin client</source>
+        <translation>Icolcoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Scolcoin network</source>
+        <source>%n active connection(s) to Icolcoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -659,8 +663,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Scolcoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Scolcoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Icolcoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Icolcoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -719,8 +723,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Scolcoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Scolcoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Icolcoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Icolcoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1039,8 +1043,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Scolcoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Scolcoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Icolcoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Icolcoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1058,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Scolcoin-Qt</source>
-        <translation>Scolcoin-Qt</translation>
+        <source>Icolcoin-Qt</source>
+        <translation>Icolcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1131,13 +1135,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Scolcoin after logging in to the system.</source>
-        <translation>Автоматически запускать Scolcoin после входа в систему</translation>
+        <source>Automatically start Icolcoin after logging in to the system.</source>
+        <translation>Автоматически запускать Icolcoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Scolcoin on system login</source>
-        <translation>&amp;Запускать Scolcoin при входе в систему</translation>
+        <source>&amp;Start Icolcoin on system login</source>
+        <translation>&amp;Запускать Icolcoin при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1156,8 +1160,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Scolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Scolcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Icolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Icolcoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1166,8 +1170,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Scolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Scolcoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the Icolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети Icolcoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1241,8 +1245,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Scolcoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Scolcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Icolcoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Icolcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1256,8 +1260,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Scolcoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Scolcoin в списке транзакций.</translation>
+        <source>Whether to show Icolcoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса Icolcoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1303,8 +1307,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Scolcoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Scolcoin</translation>
+        <source>This setting will take effect after restarting Icolcoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Icolcoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1322,8 +1326,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scolcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Scolcoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Icolcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Icolcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1538,8 +1542,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Scolcoin-Qt help message to get a list with possible Scolcoin command-line options.</source>
-        <translation>Показать помощь по Scolcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Icolcoin-Qt help message to get a list with possible Icolcoin command-line options.</source>
+        <translation>Показать помощь по Icolcoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1558,13 +1562,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Scolcoin - Debug window</source>
-        <translation>Scolcoin - Окно отладки</translation>
+        <source>Icolcoin - Debug window</source>
+        <translation>Icolcoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Scolcoin Core</source>
-        <translation>Ядро Scolcoin</translation>
+        <source>Icolcoin Core</source>
+        <translation>Ядро Icolcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1573,8 +1577,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Scolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Scolcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Icolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Icolcoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1583,8 +1587,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Scolcoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Scolcoin.</translation>
+        <source>Welcome to the Icolcoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Icolcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1742,8 +1746,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Scolcoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите Icolcoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1842,7 +1846,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Scolcoin address</source>
+        <source>WARNING: Invalid Icolcoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1916,8 +1920,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите Scolcoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите Icolcoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1977,8 +1981,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Scolcoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Scolcoin</translation>
+        <source>Sign the message to prove you own this Icolcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Icolcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2009,8 +2013,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Scolcoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Scolcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Icolcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Icolcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2020,8 +2024,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес Scolcoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес Icolcoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2030,8 +2034,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Scolcoin signature</source>
-        <translation>Введите подпись Scolcoin</translation>
+        <source>Enter Icolcoin signature</source>
+        <translation>Введите подпись Icolcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2601,7 +2605,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Scolcoin version</source>
+        <source>Icolcoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2611,8 +2615,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or scolcoind</source>
-        <translation>Отправить команду на -server или scolcoind</translation>
+        <source>Send command to -server or icolcoind</source>
+        <translation>Отправить команду на -server или icolcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2632,13 +2636,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: scolcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: scolcoin.conf)</translation>
+        <source>Specify configuration file (default: icolcoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: icolcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: scolcoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: scolcoind.pid)</translation>
+        <source>Specify pid file (default: icolcoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: icolcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2662,8 +2666,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31497 or testnet: 41497)</source>
-        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 31497 или 41497 в тестовой сети)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 20138 or testnet: 45064)</source>
+        <translation>Принимать входящие подключения на &lt;port&gt; (по умолчанию: 20138 или 45064 в тестовой сети)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2722,8 +2726,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31498 or testnet: 41498)</source>
-        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 31498 или для testnet: 41498)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20139 or testnet: 45065)</source>
+        <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: 20139 или для testnet: 45065)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2787,8 +2791,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Scolcoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Scolcoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Icolcoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Icolcoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2977,13 +2981,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3109,13 +3113,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Scolcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  Icolcoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3149,13 +3153,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Scolcoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Scolcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Icolcoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Icolcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Scolcoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Scolcoin для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart Icolcoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Icolcoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3224,8 +3228,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Scolcoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Scolcoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Icolcoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Icolcoin уже работает.</translation>
     </message>
     <message>
         <location line="-97"/>

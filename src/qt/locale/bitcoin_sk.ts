@@ -3,22 +3,26 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Scolcoin</source>
-        <translation>O Scolcoine</translation>
+        <source>About Icolcoin</source>
+        <translation>O Icolcoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Scolcoin&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;Scolcoinu&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Icolcoin&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt;Icolcoinu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</source>
+Copyright © 2018-2020 The Scolcoin developers
+Copyright © 2020-2021 The Icolcoin developers
+Copyright © Blockchain Technology Sas</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2018-2020 The Scolcoin developers</translation>
+Copyright © 2018-2020 The Scolcoin developers
+Copyright © 2020-2021 The Icolcoin developers
+Copyright © Blockchain Technology Sas</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +69,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Scolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše Scolcoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your Icolcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše Icolcoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +84,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Scolcoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Scolcoin adresu</translation>
+        <source>Sign a message to prove you own a Icolcoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Icolcoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +99,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Scolcoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Scolcoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Icolcoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Icolcoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +267,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>Scolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Scolcoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>Icolcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Icolcoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +381,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Scolcoin</source>
-        <translation>Zobraziť informácie o Scolcoin</translation>
+        <source>Show information about Icolcoin</source>
+        <translation>Zobraziť informácie o Icolcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +431,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a Scolcoin address</source>
-        <translation>Poslať mince na Scolcoin adresu</translation>
+        <source>Send coins to a Icolcoin address</source>
+        <translation>Poslať mince na Icolcoin adresu</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for Scolcoin</source>
-        <translation>Upraviť možnosti konfigurácie pre Scolcoin</translation>
+        <source>Modify configuration options for Icolcoin</source>
+        <translation>Upraviť možnosti konfigurácie pre Icolcoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +476,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +486,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About Scolcoin</source>
-        <translation>&amp;O Scolcoin</translation>
+        <source>&amp;About Icolcoin</source>
+        <translation>&amp;O Icolcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +543,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Scolcoin client</source>
-        <translation>Scolcoin klient</translation>
+        <source>Icolcoin client</source>
+        <translation>Icolcoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Scolcoin network</source>
-        <translation><numerusform>%n aktívne spojenie s Scolcoin sieťov</numerusform><numerusform>%n aktívnych spojení s Scolcoin sieťov</numerusform><numerusform>%n aktívnych spojení s Scolcoin sieťou</numerusform></translation>
+        <source>%n active connection(s) to Icolcoin network</source>
+        <translation><numerusform>%n aktívne spojenie s Icolcoin sieťov</numerusform><numerusform>%n aktívnych spojení s Icolcoin sieťov</numerusform><numerusform>%n aktívnych spojení s Icolcoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -658,8 +662,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Scolcoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Scolcoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Icolcoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Icolcoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -718,8 +722,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Scolcoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Scolcoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. Icolcoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. Icolcoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1052,8 +1056,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Scolcoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Scolcoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Icolcoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Icolcoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1071,8 +1075,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Scolcoin-Qt</source>
-        <translation>Scolcoin-Qt</translation>
+        <source>Icolcoin-Qt</source>
+        <translation>Icolcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1144,13 +1148,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Scolcoin after logging in to the system.</source>
-        <translation>Automaticky spustiť Scolcoin po prihlásení sa do systému.</translation>
+        <source>Automatically start Icolcoin after logging in to the system.</source>
+        <translation>Automaticky spustiť Icolcoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Scolcoin on system login</source>
-        <translation>&amp;Spustiť Scolcoin pri prihlásení do systému</translation>
+        <source>&amp;Start Icolcoin on system login</source>
+        <translation>&amp;Spustiť Icolcoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1169,8 +1173,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Scolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta Scolcoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the Icolcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta Icolcoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1183,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Scolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti Scolcoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the Icolcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti Icolcoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1258,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Scolcoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Scolcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Icolcoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Icolcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1269,8 +1273,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Scolcoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť Scolcoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show Icolcoin addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť Icolcoin adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1316,8 +1320,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Scolcoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní Scolcoin.</translation>
+        <source>This setting will take effect after restarting Icolcoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní Icolcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1339,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Scolcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Scolcoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Icolcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Icolcoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1551,8 +1555,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Scolcoin-Qt help message to get a list with possible Scolcoin command-line options.</source>
-        <translation>Zobraziť Scolcoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Scolcoin.</translation>
+        <source>Show the Icolcoin-Qt help message to get a list with possible Icolcoin command-line options.</source>
+        <translation>Zobraziť Icolcoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Icolcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1571,13 +1575,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Scolcoin - Debug window</source>
-        <translation>Scolcoin - Ladiace okno</translation>
+        <source>Icolcoin - Debug window</source>
+        <translation>Icolcoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Scolcoin Core</source>
-        <translation>Jadro Scolcoin</translation>
+        <source>Icolcoin Core</source>
+        <translation>Jadro Icolcoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1586,8 +1590,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Scolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Scolcoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the Icolcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Icolcoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1596,8 +1600,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Scolcoin RPC console.</source>
-        <translation>Vitajte v konzole Scolcoin RPC.</translation>
+        <source>Welcome to the Icolcoin RPC console.</source>
+        <translation>Vitajte v konzole Icolcoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1755,8 +1759,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Scolcoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Icolcoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1855,8 +1859,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Scolcoin address</source>
-        <translation>UPOZORNENIE: Neplatná Scolcoin adresa</translation>
+        <source>WARNING: Invalid Icolcoin address</source>
+        <translation>UPOZORNENIE: Neplatná Icolcoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1929,8 +1933,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Scolcoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Icolcoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1990,8 +1994,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Scolcoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Scolcoin adresu</translation>
+        <source>Sign the message to prove you own this Icolcoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Icolcoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2022,8 +2026,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Scolcoin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Scolcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Icolcoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Icolcoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2037,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Scolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Scolcoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Icolcoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Icolcoin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2043,8 +2047,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Scolcoin signature</source>
-        <translation>Zadajte Scolcoin podpis</translation>
+        <source>Enter Icolcoin signature</source>
+        <translation>Zadajte Icolcoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2614,8 +2618,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Scolcoin version</source>
-        <translation>Scolcoin verzia</translation>
+        <source>Icolcoin version</source>
+        <translation>Icolcoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2624,8 +2628,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or scolcoind</source>
-        <translation>Pošli príkaz na -server alebo scolcoind</translation>
+        <source>Send command to -server or icolcoind</source>
+        <translation>Pošli príkaz na -server alebo icolcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2644,13 +2648,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: scolcoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: scolcoin.conf)</translation>
+        <source>Specify configuration file (default: icolcoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: icolcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: scolcoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: scolcoind.pid)</translation>
+        <source>Specify pid file (default: icolcoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: icolcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2674,8 +2678,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 31497 or testnet: 41497)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 31497 alebo testovacia sieť: 41497)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 20138 or testnet: 45064)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 20138 alebo testovacia sieť: 45064)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2734,8 +2738,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 31498 or testnet: 41498)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 31498 alebo testovaciasieť: 41498)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 20139 or testnet: 45065)</source>
+        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 20139 alebo testovaciasieť: 45065)</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -2799,8 +2803,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Scolcoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Scolcoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Icolcoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Icolcoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2989,24 +2993,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=scolcoinrpc
+rpcuser=icolcoinrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;Icolcoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3130,13 +3134,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Scolcoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. Scolcoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Icolcoin is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. Icolcoin už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Scolcoin</source>
-        <translation>Scolcoin</translation>
+        <source>Icolcoin</source>
+        <translation>Icolcoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3170,13 +3174,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Scolcoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Scolcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Icolcoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Icolcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Scolcoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Scolcoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart Icolcoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Icolcoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3245,8 +3249,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Scolcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Scolcoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Scolcoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. Icolcoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Icolcoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>
