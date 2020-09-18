@@ -1,6 +1,7 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
+// Copyright (c) 2020-2021 Blockchain Technology SAS
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2018-2020 The Scolcoin developers
+// Copyright (c) 2020-2021 The Blockchain Technology SAS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_MAIN_H
@@ -29,7 +30,7 @@ class CNode;
 
 class CTxMemPool;
 
-static const int LAST_POW_BLOCK = 10000;
+static const int LAST_POW_BLOCK = 10000000;
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
@@ -44,21 +45,29 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 /** The maximum number of entries in an 'inv' protocol message */
 static const unsigned int MAX_INV_SZ = 50000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for transaction creation) */
-static const int64_t MIN_TX_FEE = 10000;
+static const int64_t MIN_TX_FEE = 100; // comision economica
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 80000000 * COIN;
+static const int64_t MAX_MONEY = 25000000 * COIN;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 int64_t GetProofOfStakeRewardPercent(int nHeight);
 
-static const int64_t COIN_YEAR_REWARD_V1 = 3 * CENT;
-static const int64_t COIN_YEAR_REWARD_V2 = 10 * CENT;
+static const int64_t COIN_YEAR_REWARD_V1 = 1 * CENT;  //  1% -    500.000 block
+static const int64_t COIN_YEAR_REWARD_V2 = 3 * CENT;  //  3% -  1.000.000 block
+static const int64_t COIN_YEAR_REWARD_V3 = 5 * CENT;  //  4% -  1.500.000 block
+static const int64_t COIN_YEAR_REWARD_V4 = 8 * CENT;  //  5% -  2.000.000 block
+static const int64_t COIN_YEAR_REWARD_V5 = 10 * CENT; //  6% - 2.500.000 block
+static const int64_t COIN_YEAR_REWARD_V6 = 12 * CENT; //  7% - 3.000.000 block
+static const int64_t COIN_YEAR_REWARD_V7 = 15 * CENT; //  8% - 4.000.000 block
+static const int64_t COIN_YEAR_REWARD_V8 = 18 * CENT; //  9% - 5.000.000 block
+static const int64_t COIN_YEAR_REWARD_V9 = 20 * CENT; //  10% - 6.000.000 block
+static const int64_t COIN_YEAR_REWARD_V10 = 25 * CENT; // 15% - 7.000.000 block
 
-static const uint256 hashGenesisBlock("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0");
-static const uint256 hashGenesisBlockTestNet("0x00000aa2ce62bac15c8b18cf24dd7b2c62c7e5d9be1d170171bffc679f9689e0");
+static const uint256 hashGenesisBlock("0x000000929a5ee96312dfb2aaeac6b46fba55d97bc8d654e98bae21e9755259b8"); //0x
+static const uint256 hashGenesisBlockTestNet("0x000000929a5ee96312dfb2aaeac6b46fba55d97bc8d654e98bae21e9755259b8");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; } // up to 10 minutes from the future

@@ -524,7 +524,7 @@ void StakeMiner(CWallet *pwallet)
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
 
     // Make this thread recognisable as the mining thread
-    RenameThread("scolcoin-miner");
+    RenameThread("icolcoin-miner");
 
     bool fTryToSync = true;
 

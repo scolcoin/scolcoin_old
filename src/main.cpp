@@ -45,7 +45,7 @@ unsigned int nStakeMinAge = 8 * 60 * 60;
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
-int nCoinbaseMaturity = 100;
+int nCoinbaseMaturity = 500;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 
@@ -68,7 +68,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Scolcoin Signed Message:\n";
+const string strMessageMagic = "Icolcoin Signed Message:\n";
 
 // Settings
 int64_t nTransactionFee = MIN_TX_FEE;
@@ -1001,12 +1001,27 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
     
-            int64_t nSubsidy = 440 * COIN;
+            int64_t nSubsidy = 100 * COIN; // 10.000 icol POW
 
             if(nBestHeight == 0)
             {
-            nSubsidy = 61600000 * COIN;
+                nSubsidy = 20000000 * COIN; // Preminado acciones empresa - Preminated Shares of the Blockchain Technology SAS Company
             }
+            else if (nBestHeight >= 101 && nBestHeight <= 1100)
+            {
+                nSubsidy = 50 * COIN; // 50.000 icol POW       
+            }
+            else  if (nBestHeight >= 1101 && nBestHeight <= 2020)
+            {
+                nSubsidy = 5 * COIN; // 4595 icol POW    
+            } 
+            else  if (nBestHeight > 2021)
+            {
+                nSubsidy = 0.1 * COIN;  // 1.000.000 icol POW    
+            } 
+
+            //Total 1.064.595 Icol in POW
+
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
@@ -1018,11 +1033,26 @@ int64_t GetProofOfStakeRewardPercent(int nHeight)
 {
     int64_t nRewardCoinYear = COIN_YEAR_REWARD_V1;
 
-    if (nHeight >= 2000000)
+    if (nHeight > 7000000) // ...........................Block  7.000.000 25% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V10;
+    else if (nHeight >= 5000001 && nHeight <= 6999999) // Block 6.000.000 20% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V9;    
+    else if (nHeight >= 4000001 && nHeight <= 5000000) // Block 5.000.000 18% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V8;    
+    else if (nHeight >= 3000001 && nHeight <= 4000000) // Block 4.000.000 15% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V7;    
+    else if (nHeight >= 2500001 && nHeight <= 3000000) // Block 3.000.000 12% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V6;    
+    else if (nHeight >= 2000001 && nHeight <= 2500000) // Block 2.500.000 10% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V5;
+    else if (nHeight >= 1500001 && nHeight <= 2000000) // Block 2.000.000 8% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V4;
+    else if (nHeight >= 1000001 && nHeight <= 1500000) // Block 1.500.000 5% POS
+        nRewardCoinYear = COIN_YEAR_REWARD_V3;       
+    else if (nHeight >= 500000 && nHeight <= 1000000) // Block 1.000.000 3% POS
         nRewardCoinYear = COIN_YEAR_REWARD_V2;
-    else if (nHeight < 2000000)
+    else if (nHeight < 500000) //....................... Block   500.000 1% POS
         nRewardCoinYear = COIN_YEAR_REWARD_V1;
-
     return nRewardCoinYear;
 }
 
@@ -2436,7 +2466,7 @@ bool CheckDiskSpace(uint64_t nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low!");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "Scolcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "Icolcoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2537,23 +2567,23 @@ bool LoadBlockIndex(bool fAllowNew)
 
         // MainNet:
 
-        //CBlock(hash=000001faef25dec4fbcf906e6242621df2c183bf232f263d0ba5b101911e4563, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=12630d16a97f24b287c8c2594dda5fb98c9e6c70fc61d44191931ea2aa08dc90, nTime=1515132509, nBits=1e0fffff, nNonce=164482, vtx=1, vchBlockSig=)
-        //  Coinbase(hash=12630d16a9, nTime=1515132509, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-        //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
-        //    CTxOut(empty)
-        //  vMerkleTree: 12630d16a9
+//Opened LevelDB successfully
+//CBlock(hash=cfc628924321ac65347c4c3131c1002a638abaf3c6a76553f37865dab7bc03db, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, 
+// hash 00, hashMerkleRoot=dd099951dc0c2e0c88383d45b87a263932370ca3f266ea8fd21c3597fad48af6, nTime=1599742449, nBits=1e0fffff, nNonce=0, vtx=1, vchBlockSig=)
+//  Coinbase(hash=dd099951dc, nTime=1599742449, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+//  CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a2b4261636b656420627920416374696f6e7320426c6f636b636861696e20546568636e6f6c6f677920534153)
+//  CTxOut(empty)
+//  vMerkleTree: dd099951dc
+//block.GetHash() == cfc628924321ac65347c4c3131c1002a638abaf3c6a76553f37865dab7bc03db
+//block.hashMerkleRoot == dd099951dc0c2e0c88383d45b87a263932370ca3f266ea8fd21c3597fad48af6
+//block.nTime = 1599742449
+//block.nNonce = 0
 
-        // TestNet:
 
-        //CBlock(hash=0000724595fb3b9609d441cbfb9577615c292abf07d996d3edabc48de843642d, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=12630d16a97f24b287c8c2594dda5fb98c9e6c70fc61d44191931ea2aa08dc90, nTime=1515132509, nBits=1f00ffff, nNonce=216178, vtx=1, vchBlockSig=)
-        //  Coinbase(hash=12630d16a9, nTime=1515132509, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-        //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
-        //    CTxOut(empty)
-        //  vMerkleTree: 12630d16a9
 
-        const char* pszTimestamp = "11172017 Atlas the humanoid robot tha can do a backflip SColcoin";
+        const char* pszTimestamp = "Backed by Actions Blockchain Tehcnology SAS";
         CTransaction txNew;
-        txNew.nTime = 1515132509;
+        txNew.nTime = 1599765166;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2563,11 +2593,11 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1515132509;
+        block.nTime    = 1599765166;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 1948978 : 1948978;
+        block.nNonce   = !fTestNet ? 1059693 : 1059693; //
         
-        if (true  && (block.GetHash() != hashGenesisBlock)) {
+        if (false  && (block.GetHash() != hashGenesisBlock)) {
 
                 // This will figure out a valid hash and Nonce if you're
                 // creating a different genesis block:
@@ -2585,13 +2615,14 @@ bool LoadBlockIndex(bool fAllowNew)
 
         //// debug print
         block.print();
-        
+
         printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
         printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
         printf("block.nTime = %u \n", block.nTime);
         printf("block.nNonce = %u \n", block.nNonce);
+        
                 
-        assert(block.hashMerkleRoot == uint256("0xefbbac66d755b85cdfaa7d47da850e2a3c6b14f7da363f7f31cf13ea8a0f8e39"));
+        assert(block.hashMerkleRoot == uint256("0x853d61c1d0dfe4d9779b7b00e4e29b30b77a015b1b693e4b0fbebb46384d5219"));
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
 

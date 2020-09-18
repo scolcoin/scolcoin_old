@@ -1,3 +1,4 @@
+// Copyright (c) 2020-2021 Blockchain Technology SAS
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Distributed under the MIT/X11 software license, see the accompanying

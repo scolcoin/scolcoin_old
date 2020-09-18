@@ -1,4 +1,6 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2018-2020 The Scolcoin developers
+// Copyright (c) 2020-2021 The Blockchain Technology SAS developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -28,25 +30,13 @@ namespace Checkpoints
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0,      hashGenesisBlock )
-        (100, uint256("0x000008cec094cebb971d1e19e24b55c241f812726ada871fa222200a05a176ef"))
-        (1000, uint256("0xf693d8cdbc1826d548cd1dd6b0d0b8d3f09aeecbe90ddce5d19429d8572d06af"))
-        (10000, uint256("0x000000035c42d4475a8c3c160cef0548190c457be6ffd5abd3313657de409f61"))
-        (100000, uint256("0x9ed88c88cf671c5ad073539bf3a26d1dad56868aff3c30eaac46dfca1fd1d140"))
-        (200000, uint256("0x54961007498b6ce445fba424f6afa40e0ada83023b29b5ab01139655035a17c6"))
-        (300000, uint256("0x5c867a9efbfefe2c2307ce2230adca3d60d7bcf8d9b76a84c5007e6f7190696d"))
-        (400000, uint256("0xfc1a00cc1382663b37de45614cf8b72f1c746fb9b3e2e9dbd792fd7fea1f8f43"))
-        (500000, uint256("0xaa6dc005c4824c71d6c286cdb70f63d9f6c59b225a69f15a39314b131396c88b"))
-        (600000, uint256("0xe99b8dd664f500d54fbb82cbc419a19127c414329183198563597b850334d3ef"))
-        (700000, uint256("0xbf526cb01f7998121f2ffce39366d36cdeb86c81965a2b75db7e063a4485813e"))
-        (800000, uint256("0xe7bf56eef0f6d48c10a112446da6823e2df079c71b096ec0736ed2f9c0e71cc7"))
-        (900000, uint256("0xb858362456cea082ae203ceacf9fe9d76c7e9312d31a53689b3caae36460a71e"))
-        (1000000, uint256("0x3e1a94dfda709d637d2df58cbb4880e632ec93389a6ba74b922e13d1b20c74ce"))
-        (1100000, uint256("0xf0692b16e83eeb5535192aea8e60c3174f7af808a6cc2be8e75d6d2040c4077d"))
-        (1200000, uint256("0x9d891b303b35207435bee70346c5cc78deb68f51a6c61843294de3dcefe82d6a"))
-        (1300000, uint256("0x7e4e31d25d7a671320e2ff65a2938312d3c489cc2aba74fa13a7f3a3027b01fc"))
-        (1400000, uint256("0x11da59b2bd3d46cbdf4dc17aa754dbc89a66c1e2ccea405c21dcb2743381de7f"))
-        (1500000, uint256("0x1ba1dfa0c53116a6aa799fe8c5dd4c7cb3426dff42e564484c03d8b40c434a03"))
-        (1555000, uint256("0xcaedda6ca526c4f807281376abe2ed62aa7678e68e414ae15415ea66021a4795"))
+        (1, uint256("0x0000036132de693c972c6a4b11559743016e35816f1a182dc33d4ef18d6079c1"))
+        (10, uint256("0x00000a14dfb47b7b778ba0a812a59917141ec40f70539a23202487c5573c3865"))
+        (100, uint256("0x000000e2bd3d2f4e30e9bb4ea4e5b3054afcc227ce753fd54da6307f088eeeb8"))
+        (500, uint256("0x00000e59a90d643da76e3446a6ab0f5d94480784725ed5f46d898c1c26b1e6aa"))
+        (1000, uint256("0x0933a636478d9308301fd47333855706e204eaaa86eaac927075ebac2d39498b"))
+        (2000, uint256("0x00000cff09dd3e1395ac60eea5d544adaf3050c69b84e9ae1cb191e3fca24b60"))
+        (2200, uint256("0x000006317b45e735ca2269390f1d02b131ea71120d58c487e1ffc068ed80a5af"))
     ;
 
     // TestNet has no checkpoints
