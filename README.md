@@ -30,3 +30,50 @@ in this manner will have their corresponding issue labeled 'stagnant'.
 Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'.
+
+# ICOLCOIN (ICOL)
+https://blockchaintechnology.com.co/
+
+Project Supported by Business Actions
+
+Blockchain: Icolcoin
+
+Total supply: 25,000,000 Icolcoin
+
+# Distribution
+20.000.000 Icol company shares (Blockchain Technology SAS)
+Total 1.064.595 Icol in POW
+Total 3.935.405 Icol in POS
+Specifications
+Coin name SColcoin
+Coin abbreviation SCOL
+algoritmo: Scrypt
+Tipo: PoW/PoS
+Letra Direccion: G, O, Y, J, V
+RPC port 20139
+P2P port 20138
+Total coin supply: 25.000.000 coins
+Last PoW block: block 10.000.000
+Coinbase maturity : 500 blocks
+Target spacing: 64 seconds
+Target timespan: 1 block
+Transaction confirmations: 6 blocks
+
+# Reward POW
+* 1 - 100 block = 100 Icol
+* 101 - 1100 block = 50 Icol
+* 101 - 2020 block = 5 Icol
+* mayor 2021 block = 0.1 Icol <<
+
+# Reward POS
+* 1 - 500.000 block POS 1% <<
+* 500.001 - 1.000.000 block POS 3%
+* 1.000.001 - 1.500.000 block POS 5%
+* 1.500.001 - 2.000.000 block POS 8%
+* 2.000.001 - 2.500.000 block POS 10%
+* 2.500.001 - 3.000.000 block POS 12%
+* 3.000.001 - 4.000.000 block POS 15%
+* 4.000.001 - 5.000.000 block POS 18%
+* 5.000.001 - 6.000.000 block POS 20%
+* 7.000.001 - 7.000.000 block POS 25%
+* mayor > 7.000.001 block POS 25%
