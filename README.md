@@ -74,3 +74,22 @@ labeled 'stale'.
 * 5.000.001 - 6.000.000 block POS 20%
 * 7.000.001 - 7.000.000 block POS 25%
 * mayor > 7.000.001 block POS 25%
+
+# Links
+* https://bitcointalk.org/index.php?topic=5088078.0
+* Facebook: https://www.facebook.com/icolcoin/
+* Twitter: https://twitter.com/icolcoin
+* Reddit: https://www.reddit.com/r/Icolcoin/
+* Channerl Telegram: https://t.me/icolcoin
+* Telegram: https://t.me/icolcoin_foro
+
+Exchange
+===========================
+https://nanu.exchange/exchange#btc_icol
+
+
+Statistics
+===========================
+* https://www.coingecko.com/en/coins/icolcoin
+* app blockfolio
+* https://coincodex.com/crypto/icolcoin/
