@@ -32,32 +32,29 @@ Issues with no commits will be given a similar warning, and closed after
 labeled 'stale'.
 
 # ICOLCOIN (ICOL)
-https://blockchaintechnology.com.co/
-
-Project Supported by Business Actions
-
-Blockchain: Icolcoin
-
-Total supply: 25,000,000 Icolcoin
+* https://blockchaintechnology.com.co/
+* Project Supported by Business Actions
+* Blockchain: Icolcoin
+* Total supply: 25,000,000 Icolcoin
 
 # Distribution
-20.000.000 Icol company shares (Blockchain Technology SAS)
-Total 1.064.595 Icol in POW
-Total 3.935.405 Icol in POS
-Specifications
-Coin name SColcoin
-Coin abbreviation SCOL
-algoritmo: Scrypt
-Tipo: PoW/PoS
-Letra Direccion: G, O, Y, J, V
-RPC port 20139
-P2P port 20138
-Total coin supply: 25.000.000 coins
-Last PoW block: block 10.000.000
-Coinbase maturity : 500 blocks
-Target spacing: 64 seconds
-Target timespan: 1 block
-Transaction confirmations: 6 blocks
+* 20.000.000 Icol company shares (Blockchain Technology SAS)
+* Total 1.064.595 Icol in POW
+* Total 3.935.405 Icol in POS
+* Specifications
+* Coin name SColcoin
+* Coin abbreviation SCOL
+* algoritmo: Scrypt
+* Tipo: PoW/PoS
+* Letra Direccion: G, O, Y, J, V
+* RPC port 20139
+* P2P port 20138
+* Total coin supply: 25.000.000 coins
+* Last PoW block: block 10.000.000
+* Coinbase maturity : 500 blocks
+* Target spacing: 64 seconds
+* Target timespan: 1 block
+* Transaction confirmations: 6 blocks
 
 # Reward POW
 * 1 - 100 block = 100 Icol
