@@ -1,7 +1,7 @@
 
 Icolcoin development tree
 
-Icolcoin is a PoS-based cryptocurrency.
+Icolcoin is Hybrid PoW/PoS cryptocurrency.
 
 Development process
 ===========================
