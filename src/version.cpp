@@ -8,10 +8,10 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both bitcoind and bitcoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("Satoshi");
+const std::string CLIENT_NAME("Scolcoin");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   ""
+#define CLIENT_VERSION_SUFFIX   "2.0.0"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
@@ -62,5 +62,5 @@ const std::string CLIENT_NAME("Satoshi");
 #    endif
 #endif
 
-const std::string CLIENT_BUILD(BUILD_DESC CLIENT_VERSION_SUFFIX);
+const std::string CLIENT_BUILD(CLIENT_VERSION_SUFFIX);
 const std::string CLIENT_DATE(BUILD_DATE);
