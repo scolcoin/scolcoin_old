@@ -85,7 +85,7 @@ labeled 'stale'.
 
 Exchange
 ===========================
-https://nanu.exchange/exchange#btc_icol
+https://main.southxchange.com/Market/Book/ICOL/BTC
 
 
 Statistics
