@@ -21,7 +21,6 @@
 #include "macnotificationhandler.h"
 #endif
 
-#ifdef USE_DBUS
 // https://wiki.ubuntu.com/NotificationDevelopmentGuidelines recommends at least 128
 const int FREEDESKTOP_NOTIFICATION_ICON_SIZE = 128;
 
