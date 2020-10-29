@@ -900,11 +900,12 @@ bool AppInit2()
     RandAddSeedPerfmon();
 
     //// debug print
-    printf("mapBlockIndex.size() = %" PRIszu"\n",   mapBlockIndex.size());
+    printf("mapBlockIndex.size() = %" PRIszu"\n",   mapBlockIndex.size()); 
     printf("nBestHeight = %d\n",            nBestHeight);
     printf("setKeyPool.size() = %" PRIszu"\n",      pwalletMain->setKeyPool.size());
     printf("mapWallet.size() = %" PRIszu"\n",       pwalletMain->mapWallet.size());
     printf("mapAddressBook.size() = %" PRIszu"\n",  pwalletMain->mapAddressBook.size());
+    
     
 
     if (!NewThread(StartNode, NULL))
