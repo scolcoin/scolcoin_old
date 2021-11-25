@@ -7,10 +7,6 @@ Scolcoin Token link https://github.com/scolcoin/Token-Scolcoin-SCOL
 Whitepaper Token: https://github.com/scolcoin/Token-Scolcoin-SCOL/blob/main/docs/whitepaper-es.md
 
 
-Scolcoin development tree
-
-Scolcoin is a PoS-based cryptocurrency.
-
 Development process
 ===========================
 
