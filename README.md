@@ -1,7 +1,9 @@
 Scolcoin cryptocurrency link https://github.com/scolcoin/scolcoin
+
 Whitepaper Scol: https://github.com/scolcoin/Whitepaper/blob/main/White%20Paper%20Scolcoin%20ver%202.0.0.2.pdf
 
 Scolcoin Token link https://github.com/scolcoin/Token-Scolcoin-SCOL
+
 Whitepaper Token: https://github.com/scolcoin/Token-Scolcoin-SCOL/blob/main/docs/whitepaper-es.md
 
 
